@@ -1,0 +1,23 @@
+suites:
+    default:
+        namespace: ALawrence\LaravelDevTools
+        psr4_prefix: ALawrence\LaravelDevTools
+formatter.name: pretty
+
+extensions:
+  LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
+
+    format:
+      - clover
+
+    output:
+      clover: coverage.xml
+
+    show_uncovered_files: true
+
+    lower_upper_bound: 35
+
+    high_lower_bound: 70
+
+    whitelist:
+      - src

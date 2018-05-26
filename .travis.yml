@@ -1,0 +1,15 @@
+language: php
+
+cache:
+  directories:
+    $HOME/.composer/cache/files
+
+php:
+  - 7.1
+
+before_script:
+  - travis_retry composer install --no-interaction
+
+script:
+  - vendor/bin/phpspec run --no-interaction
+  - bash <(curl -s https://codecov.io/bash)
