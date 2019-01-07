@@ -22,7 +22,7 @@
         "phpspec/phpspec": "^4.3",
         "leanphp/phpspec-code-coverage": "^4.0",
         "barryvdh/laravel-ide-helper": "^2.4",
-        "codedungeon/phpunit-result-printer": "^0.17.0",
+        "codedungeon/phpunit-result-printer": "^0.24.1",
         "laracasts/generators": "^1.1"
     },
     "autoload": {
