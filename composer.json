@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "tightenco/collect": "^7.0"
+        "tightenco/collect": "^17.19"
     },
     "require-dev": {
         "phpspec/phpspec": "^4.3",
